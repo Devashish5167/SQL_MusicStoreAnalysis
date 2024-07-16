@@ -9,10 +9,10 @@ limit 1 ;
 
 -- Q2: Which countries has the most invoices?
 
-select count(*) as c, billing_country 
+Select Count(*) as c, billing_country 
 from invoice
-group by billing_country
-order by c desc;
+Group by billing_country
+Order by c desc;
 
 
 -- Q3: What are top 3 values of total invoice
