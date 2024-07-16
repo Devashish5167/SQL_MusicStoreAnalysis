@@ -17,9 +17,9 @@ Order by c desc;
 
 -- Q3: What are top 3 values of total invoice
 
-select total from invoice
-order by total desc
-limit 3;
+Select total from invoice
+Order by total desc
+Limit 3;
 
 
 -- Q4: Which city has the best customers? We would like to throw a promotional
